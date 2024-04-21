@@ -1,0 +1,22 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class FindNumber{
+     public static void findNumber(int arr[],int k){
+    for(int i=0;i<arr.length;i++){
+        if(arr[i]==k){
+     
+        System.out.print("Common elements is "+ arr[i] +" and found at "+ i);        
+        }
+    }
+ }
+      public static void main(String args[])
+    {
+        FindNumber ob = new FindNumber();
+
+        int n=20;
+        int arr[] = {1,5,10,20,40,75,80};
+     
+        ob.findNumber(arr,n);
+    }
+}

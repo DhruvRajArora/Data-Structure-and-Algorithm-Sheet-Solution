@@ -1,0 +1,22 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class HelloWorld {
+    public static void main(String []args){
+        String sr="abbcc";
+        int [] count=new int[256];
+    for(int i=0;i<sr.length();i++){
+        count[sr.charAt(i)]++;
+    }
+    for(int i=0;i<256;i++){
+        if(count[i]>1){
+            System.out.println((char)(i)+"'s Count is "+ count[i]);
+        }
+    }
+        
+        
+        
+        
+    }
+    
+}
